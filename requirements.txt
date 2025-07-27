@@ -1,0 +1,10 @@
+fastapi==0.100.0
+uvicorn[standard]==0.23.1
+motor==3.1.1                # Async MongoDB driver
+python-jose==3.3.0          # JWT handling
+passlib[bcrypt]==1.7.4      # Password hashing
+pydantic==2.0.2             # Data validation
+apscheduler==3.10.1         # Task scheduling
+httpx==0.24.0               # HTTP client (for WakaTime API calls)
+pytest==7.4.2               # Testing framework
+python-dotenv==1.0.0        # Load env vars from .env file

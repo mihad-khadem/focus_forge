@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff (if you use it later)
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff (if you use it later)
+instance/
+.webassets-cache
+
+# FastAPI / Uvicorn logs
+*.log
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Environment variables file
+.env
+.env.*.local
+
+# MongoDB files (if any local dumps)
+dump/
+
+# Coverage reports
+coverage/
+
+# MyPy
+.mypy_cache/
+
+# Editor swap files
+*.swp
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Misc
+*.bak
+*.tmp
+
