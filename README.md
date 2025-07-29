@@ -23,11 +23,12 @@ FocusForge is a productivity backend built with Python FastAPI and MongoDB, desi
 app/
 ├── api/ # FastAPI route handlers
 ├── core/ # Config, security utils, scheduler setup
-├── db/ # MongoDB models and connection
+├── db/ # MongoDB models and connection.
+├── schemas/ # Pydantic models
 ├── services/ # Business logic and external API interactions
 ├── utils.py # Helpers and utility functions
 ├── main.py # FastAPI app entrypoint
-tests/ # Unit and integration tests
+├── tests/ # Unit and integration tests
 Dockerfile # Container configuration
 requirements.txt # Python dependencies
 .env.example # Sample environment variables
